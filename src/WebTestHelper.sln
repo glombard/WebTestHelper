@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTestHelper.Fakes", "WebTestHelper.Fakes\WebTestHelper.Fakes.csproj", "{41D9374C-37FF-4317-80EA-593C68A4ECC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTestHelper.Routes", "WebTestHelper.Routes\WebTestHelper.Routes.csproj", "{BF497666-AA04-4B71-9D7C-48D242B6D64A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTestHelper.Routes.Tests", "WebTestHelper.Routes.Tests\WebTestHelper.Routes.Tests.csproj", "{8E229CE4-C09F-4E9F-A9E9-526D063E108A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6A1DF01C-3C36-4DA9-BAD9-226B79782F9B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTestHelper.WebServer", "WebTestHelper.WebServer\WebTestHelper.WebServer.csproj", "{BC8C07A4-7D8F-40E7-836C-0147EA3699CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTestHelper.WebServer.Sample", "WebTestHelper.WebServer.Sample\WebTestHelper.WebServer.Sample.csproj", "{89107392-B9EF-4D22-8C95-E439F742F1CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTestHelper.WebServer.Sample.Tests", "WebTestHelper.WebServer.Sample.Tests\WebTestHelper.WebServer.Sample.Tests.csproj", "{B5F4226F-AFA4-42C4-A9EC-A8C401D3FF3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41D9374C-37FF-4317-80EA-593C68A4ECC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D9374C-37FF-4317-80EA-593C68A4ECC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D9374C-37FF-4317-80EA-593C68A4ECC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D9374C-37FF-4317-80EA-593C68A4ECC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF497666-AA04-4B71-9D7C-48D242B6D64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF497666-AA04-4B71-9D7C-48D242B6D64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF497666-AA04-4B71-9D7C-48D242B6D64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF497666-AA04-4B71-9D7C-48D242B6D64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E229CE4-C09F-4E9F-A9E9-526D063E108A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E229CE4-C09F-4E9F-A9E9-526D063E108A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E229CE4-C09F-4E9F-A9E9-526D063E108A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E229CE4-C09F-4E9F-A9E9-526D063E108A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8C07A4-7D8F-40E7-836C-0147EA3699CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8C07A4-7D8F-40E7-836C-0147EA3699CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8C07A4-7D8F-40E7-836C-0147EA3699CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8C07A4-7D8F-40E7-836C-0147EA3699CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89107392-B9EF-4D22-8C95-E439F742F1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89107392-B9EF-4D22-8C95-E439F742F1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89107392-B9EF-4D22-8C95-E439F742F1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89107392-B9EF-4D22-8C95-E439F742F1CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F4226F-AFA4-42C4-A9EC-A8C401D3FF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F4226F-AFA4-42C4-A9EC-A8C401D3FF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F4226F-AFA4-42C4-A9EC-A8C401D3FF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F4226F-AFA4-42C4-A9EC-A8C401D3FF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
